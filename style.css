@@ -61,6 +61,12 @@ ul {
   /* width: 400px; */
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition:transform 0.3s;
+
+}
+
+.card:hover{
+  transform: translateY(-15px);
 }
 
 /* TARJETA */
