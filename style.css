@@ -55,6 +55,53 @@ ul {
   font-weight: bold;
 }
 
+.hero{
+  background-image: linear-gradient(45deg,#14532d, #22c55e);
+  padding: 50px 20px;
+  color: #e2e8f0;
+}
+
+.hero__grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+align-items: center;
+}
+
+.hero__grid-content h1{
+  color:#fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero__grid-content p{
+  margin-bottom: 40px;
+}
+
+.hero__grid-content a{
+  background-color: #0f172a;
+  color:#e2e8f0;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero__grid-content a:hover{
+  background-color:#1e293b;
+}
+
+.hero__grid-video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+  transform: transform 0.3s;
+}
+
+.hero__grid-video:hover{
+  transform: rotate(5deg);
+}
+
 .card {
   background-color: #fff;
   padding: 20px;
