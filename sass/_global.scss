@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    /* top, bottom - left, right  */
+    margin: 0 auto;
+  }

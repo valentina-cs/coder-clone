@@ -1,0 +1,57 @@
+.header {
+    background-color:$bgDark;
+    color: fontLight;
+    padding: 30px 20px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &-title {
+            color: $primary;
+
+            &:hover::after {
+                content: 'inicio';
+                margin-left: 8px;
+                font-size: 15px;
+                color: $fontLight;
+            }
+        }
+
+        &-navbar {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0 15px;
+                transition: transform 0.3s;
+
+
+                &:last-child {
+                    border: 1px solid $primary;
+                    border-radius: 10px;
+                    padding: 10px
+                }
+
+                &:active: {
+                    transform: scale(0.9);
+                }
+
+                a {
+                    color: $fontLight;
+                    font-weight: bold;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+  }
